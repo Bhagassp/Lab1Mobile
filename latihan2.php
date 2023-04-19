@@ -1,5 +1,5 @@
 <?php
-$url = 'https://tifupb.id/tugas1';
+$url = 'https://api.steinhq.com/v1/storages/642a1ee5eced9b09e9c762e8/21a1';
 $data = file_get_contents($url);
 $absensi = json_decode($data, true);
 $total_absensi = count($absensi);
